@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="./style.css">
+  <!-- Link your custom styles or framework CSS here -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="./logo.jfif" alt="Osumare Marketing Solutions Logo">
+      </div>
+      <h1>Welcome to Our Internal Landing Page</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="container">
+      <h2>About Us</h2>
+      <p>Information about the organization.</p>
+    </section>
+
+    <section id="services" class="container">
+      <h2>Our Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service">
+            <h3>Service 1</h3>
+            <p>Details about service 1.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service">
+            <h3>Service 2</h3>
+            <p>Details about service 2.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service">
+            <h3>Service 3</h3>
+            <p>Details about service 3.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact Us</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" class="form-control"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Osumare Marketing Solutions. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+  <!-- Link any additional scripts you may have -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
